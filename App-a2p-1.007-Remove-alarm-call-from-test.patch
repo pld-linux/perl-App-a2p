@@ -1,0 +1,15 @@
+# Current code will fail test tests if the code will run for more than 5
+# seconds. This is not much portable test.
+
+diff -up App-a2p-1.007/t/10-basics.t.orig App-a2p-1.007/t/10-basics.t
+--- App-a2p-1.007/t/10-basics.t.orig	2014-06-23 16:41:12.031654029 +0200
++++ App-a2p-1.007/t/10-basics.t	2014-06-23 16:41:18.611717590 +0200
+@@ -11,8 +11,6 @@ use IPC::Open2;
+ use File::Spec::Functions 'catfile';
+ use File::Temp 'tempdir';
+ 
+-alarm 5;
+-
+ sub spew {
+ 	my ($filename, $content) = @_;
+ 	open my $fh, '>', $filename or die "Couldn't open $filename: $!";
