@@ -10,7 +10,7 @@
 Summary:	Awk to Perl translator
 Name:		perl-App-a2p
 Version:	1.007
-Release:	0.1
+Release:	1
 License:	GPL+ or Artistic
 Group:		Development/Tools
 Source0:	http://www.cpan.org/authors/id/L/LE/LEONT/App-a2p-%{version}.tar.gz
