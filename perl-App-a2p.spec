@@ -1,3 +1,5 @@
+# NOTE:
+# - a2p is provided by standard Perl distribution (perl-tools)
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
