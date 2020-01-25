@@ -6,7 +6,6 @@
 
 %define		pdir	App
 %define		pnam	a2p
-%include	/usr/lib/rpm/macros.perl
 Summary:	Awk to Perl translator
 Name:		perl-App-a2p
 Version:	1.007
