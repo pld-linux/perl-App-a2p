@@ -32,8 +32,8 @@ the command line and produces a comparable Perl script.
 
 %prep
 %setup -q -n App-a2p-%{version}
-%patch0 -p1
-%patch1 -p1
+%patch -P0 -p1
+%patch -P1 -p1
 
 %build
 # Regenerate a2p.c from a2p.y
