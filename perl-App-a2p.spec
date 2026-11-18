@@ -8,12 +8,12 @@
 %define		pnam	a2p
 Summary:	Awk to Perl translator
 Name:		perl-App-a2p
-Version:	1.007
+Version:	1.013
 Release:	1
 License:	GPL+ or Artistic
 Group:		Development/Tools
-Source0:	http://www.cpan.org/authors/id/L/LE/LEONT/App-a2p-%{version}.tar.gz
-# Source0-md5:	7626c175024931f2153e16f2a5edf858
+Source0:	https://www.cpan.org/authors/id/L/LE/LEONT/App-a2p-%{version}.tar.gz
+# Source0-md5:	3b91042455c5ac179a643f9d2ba571b2
 Patch0:		App-a2p-1.007-Remove-alarm-call-from-test.patch
 Patch1:		App-a2p-1.007-a2p-y.patch
 URL:		http://search.cpan.org/dist/App-a2p/
@@ -22,7 +22,6 @@ BuildRequires:	perl
 BuildRequires:	perl(ExtUtils::MakeMaker) >= 6.30
 %if %{with tests}
 BuildRequires:	perl(Test::More) >= 0.89
-BuildRequires:	perl-Devel-FindPerl
 %endif
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 

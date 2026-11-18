@@ -4,7 +4,7 @@
 diff -up App-a2p-1.007/t/10-basics.t.orig App-a2p-1.007/t/10-basics.t
 --- App-a2p-1.007/t/10-basics.t.orig	2014-06-23 16:41:12.031654029 +0200
 +++ App-a2p-1.007/t/10-basics.t	2014-06-23 16:41:18.611717590 +0200
-@@ -11,8 +11,6 @@ use IPC::Open2;
+@@ -10,8 +10,6 @@ use IPC::Open2;
  use File::Spec::Functions 'catfile';
  use File::Temp 'tempdir';
  
